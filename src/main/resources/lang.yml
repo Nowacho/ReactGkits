@@ -1,0 +1,21 @@
+# When you do not have command permissions #
+COMMAND-NO-PERMS: "&cNo Permissions."
+
+# Kit Selector Menu #
+KIT:
+  NO_ITEMS: "&cThe kit you want to obtain has no items"
+
+# Kit Command #
+KIT_COMMAND:
+  NO_ITEMS: "&cThe kit you want to obtain has no items"
+  MENTION_KIT: "&cYou have to mention the name of the kit"
+  MENTION_NAME_KIT: "&cMention the name you want to give it"
+  MENTION_PERM_KIT: "&cMention the permit to be placed"
+  MENTION_KIT_NOT_EXIST: "&cThe kit you mentioned does not exist"
+  MENTION_PLAYER: "&cMention a player to give him the kit"
+  MENTION_PLAYER_NOT_EXIST: "&cThe player you mentioned does not exist"
+  CORRETLY_PLACED: "&aThe Kit was correctly placed"
+  ALREADY_CREATED: "&cThis kit is already created"
+  SUCCESSFULLY_CREATED: "&ayour kit was successfully created"
+  SUCCESSFULLY_DELETE: "&aRemoved successfully from the kit list"
+  OPEN_EDIT_MENU: "&aYou opened the edit menu"

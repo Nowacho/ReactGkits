@@ -1,0 +1,145 @@
+# GKIT MENU #
+GKIT_MENU:
+  TITLE: "&a&lGkit Selector" # Title menu
+  INVENTORY_SLOTS: 27 # Slots Inventory menu
+  SOUND: # Sound settings when opening the inventory
+    ENABLED: true
+    SOUND: CHEST_OPEN
+  GLASS_PANEL: # Glass background panel
+    ENABLED: true
+    ID: 3
+
+# Kits selector menu #
+KITS:
+  HARDLING:
+    PERMISSION: "react.gkit.hardling" # Permission to obtain the kit
+    WITH_PERMISSIONS: # When the user has kit permissions
+      DISPLAYNAME: "&3&lHardling Kit"
+      LORE:
+        - "&7&m------------------"
+        - "&8* &6Right click to get the gkit"
+        - "&7&m------------------"
+      MESSAGE: "&ayou got the kit correctly" # Message when obtaining the kit
+      ENCHANTED: true # Enchantment/Glow
+      MATERIAL: BOW # Material
+      DATA: 0 # Material data
+      SLOT: 11
+      SOUND: # Sound configuration when clicking on the kit
+        ENABLED: true
+        SOUND: VILLAGER_YES
+    NO_PERMISSIONS: # When the player does not have kit permissions
+      MESSAGE: "&cyou can purchase this kit in the hardling.tebex.io" # Message when clicking on the kit
+      SOUND: # Sound configuration when clicking on the kit
+        ENABLED: true
+        SOUND: VILLAGER_NO
+    COOLDOWN: # When the player has the cooldown active
+      MESSAGE: "&cYou have to wait some &a&n%time%&c to get the kit again." # Message when clicking on the kit
+      TIME: 3600 # Kit cooldown time in seconds
+      SOUND: # Sound configuration when clicking on the kit
+        ENABLED: true
+        SOUND: EXPLODE
+    # DO NOT DO MANUALLY #
+    INVENTORY_ITEMS: # Inventory items
+      ITEMS: # only items
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - ==: org.bukkit.inventory.ItemStack
+          type: STONE_SWORD
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+      ARMOR: # only armor
+        - ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_BOOTS
+        - ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_LEGGINGS
+        - ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_CHESTPLATE
+        - ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_HELMET
+  RUBY:
+    PERMISSION: "react.gkit.ruby"
+    WITH_PERMISSIONS:
+      DISPLAYNAME: "&4&lRuby Kit"
+      LORE:
+        - "&7&m------------------"
+        - "&8* &6Right click to get the gkit"
+        - "&7&m------------------"
+      MESSAGE: "&ayou got the kit correctly"
+      ENCHANTED: true
+      MATERIAL: IRON_SWORD
+      DATA: 0
+      SLOT: 13
+      SOUND:
+        ENABLED: true
+        SOUND: VILLAGER_YES
+    NO_PERMISSIONS:
+      MESSAGE: "&cyou can purchase this kit in the hardling.tebex.io"
+      SOUND:
+        ENABLED: true
+        SOUND: VILLAGER_NO
+    COOLDOWN:
+      MESSAGE: "&cYou have to wait some &a&n%time%&c to get the kit again."
+      TIME: 1800 # Seconds
+      SOUND:
+        ENABLED: true
+        SOUND: EXPLODE
+    INVENTORY_ITEMS: { }
+  YOSOYBYPROXX:
+    PERMISSION: "react.gkit.yosoybyproxx"
+    WITH_PERMISSIONS:
+      DISPLAYNAME: "&6&lYoSoyByProxx Kit"
+      LORE:
+        - "&7&m------------------"
+        - "&8* &6Right click to get the gkit"
+        - "&7&m------------------"
+      MESSAGE: "&ayou got the kit correctly"
+      ENCHANTED: true
+      MATERIAL: TNT
+      DATA: 0
+      SLOT: 15
+      SOUND:
+        ENABLED: true
+        SOUND: VILLAGER_YES
+    NO_PERMISSIONS:
+      MESSAGE: "&cyou can purchase this kit in the hardling.tebex.io"
+      SOUND:
+        ENABLED: true
+        SOUND: VILLAGER_NO
+    COOLDOWN:
+      MESSAGE: "&cYou have to wait some &a&n%time%&c to get the kit again."
+      TIME: 1800 # Seconds
+      SOUND:
+        ENABLED: true
+        SOUND: EXPLODE
+    INVENTORY_ITEMS: { }

@@ -1,0 +1,8 @@
+name: ReactGkits
+version: 1.0.2-SNAPSHOT
+main: dev.hardling.us.ReactGkits
+authors: ["YoSoyByProxx"]
+description: The Best Gkits
+
+softdepend:
+    - PlaceholderAPI
